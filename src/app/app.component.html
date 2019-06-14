@@ -7,9 +7,19 @@
   </mat-drawer>
 
   <div class="sidenav-content">
-    <button mat-icon-button (click)="drawer.toggle()">
-      <mat-icon>menu</mat-icon>
-    </button>
+
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <button mat-icon-button (click)="drawer.toggle()">
+          <mat-icon>menu</mat-icon>
+        </button>
+        
+        <span>Title</span>
+        <span class="spacer"></span>
+        <mat-icon>graphic_eq</mat-icon>
+
+      </mat-toolbar-row>
+    </mat-toolbar>
     
     <router-outlet></router-outlet>
     
