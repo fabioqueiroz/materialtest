@@ -4,3 +4,8 @@ body
 {
     font-family: Roboto, Arial, sans-serif;
 }
+
+.example-tooltip
+{
+    font-size: 90%;
+}
