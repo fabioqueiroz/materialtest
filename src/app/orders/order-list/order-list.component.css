@@ -2,3 +2,19 @@ p
 {
     padding-left: 20px;
 }
+
+th
+{
+   text-align: left;
+}
+
+.order-actions
+{
+    margin-top: 20px;
+}
+
+.order-container
+{
+    overflow: auto;
+    height: 400px;
+}

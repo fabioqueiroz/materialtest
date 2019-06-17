@@ -15,7 +15,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
-
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatCheckboxModule } from '@angular/material';
 
 
 @NgModule({
@@ -25,8 +27,11 @@ import { MAT_DATE_LOCALE } from '@angular/material/core';
     FormsModule,
     ReactiveFormsModule,
     MatTabsModule,
+    MatTableModule,
+    MatSortModule,
     MatButtonModule,
     MatCardModule,
+    MatCheckboxModule,
     MatDatepickerModule,
     MatIconModule,
     MatInputModule,
