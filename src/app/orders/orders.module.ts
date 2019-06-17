@@ -17,7 +17,8 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
-import { MatCheckboxModule } from '@angular/material';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { MatCheckboxModule } from '@angular/material';
     MatIconModule,
     MatInputModule,
     MatMomentDateModule,
+    MatPaginatorModule,
     OrdersRoutingModule
   ],
   providers: [
