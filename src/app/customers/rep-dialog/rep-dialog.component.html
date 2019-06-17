@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>Select a rep</h1>
+<div mat-dialog-content>
+  <mat-radio-group [(ngModel)]="rep">
+    <mat-radio-button value="Test 1">Test 1</mat-radio-button>
+    <mat-radio-button value="Test 2">Test 2</mat-radio-button>
+  </mat-radio-group>
+</div>
+<div mat-dialog-actions>
+  <button mat-button color="primary" [mat-dialog-close]="rep">SELECT</button>
+</div> 
