@@ -105,7 +105,7 @@ export class OrderListComponent implements OnInit {
 
   loadData(pageIndex, pageSize)
   {
-    this.dataSource = new MatTableDataSource<object>(ELEMENT_DATA.slice(pageIndex, pageIndex + this.pageSize));
+    this.dataSource = new MatTableDataSource<object>(ELEMENT_DATA.slice(pageIndex, pageIndex + pageSize));
   }
 
   onPageChange(e)
